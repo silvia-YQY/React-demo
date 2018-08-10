@@ -6,5 +6,4 @@ import App from './App';
 
 let div = document.getElementById('root')
 ReactDOM.render(<App />, div);
-console.log('88888')
 // registerServiceWorker();

@@ -38,6 +38,9 @@ class Button extends Component {
       deltaX: deltaX,
       deltaY: deltaY
     })
+
+    console.log('button组件内部')
+    this.props.onClick && this.props.onClick.call(null,'Hi')
   }
   y(){
     this.setState({
